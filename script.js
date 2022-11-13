@@ -1,4 +1,4 @@
-vketik=kalimat.innerHTML;kalimat.innerHTML = "";
+  vketik=kalimat.innerHTML;kalimat.innerHTML = "";
   vketika=kalimata.innerHTML;kalimata.innerHTML = "";
   vketikb=kalimatb.innerHTML;kalimatb.innerHTML = "";
   vketikc=kalimatc.innerHTML;kalimatc.innerHTML = "";
@@ -25,7 +25,7 @@ function fmketik3(){
   fthilang();ftganti=3;setTimeout(ftmuncul,200);
   kalimata.innerHTML="";
 }
-function mketik3() {if(ac<vketikb.length){kalimatb.innerHTML += vketikb.charAt(ac);ac++;setTimeout(mketik3,42);}}
+function mketik3() {if(ac<vketikb.length){kalimatb.innerHTML += vketikb.charAt(ac);ac++;setTimeout(mketik3,37);}}
 
   var ad=0,vketikc;
 function fmketik4(){
@@ -33,7 +33,7 @@ function fmketik4(){
   fthilang();ftganti=4;setTimeout(ftmuncul,200);
   kalimatb.innerHTML="";
 }
-function mketik4() {if(ad<vketikc.length){kalimatc.innerHTML += vketikc.charAt(ad);ad++;setTimeout(mketik4,42);}}
+function mketik4() {if(ad<vketikc.length){kalimatc.innerHTML += vketikc.charAt(ad);ad++;setTimeout(mketik4,40);}}
 
   var ae=0,vketikd;
 function fmketik5(){
